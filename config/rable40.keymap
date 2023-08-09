@@ -32,7 +32,7 @@
 
         arrow_layer {
             bindings = <
-&kp TILDE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans  &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp UP_ARROW  &kp SQT  &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TILDE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans  &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp UP_ARROW  &kp SQT  &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp EQUAL  &kp BACKSLASH  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
