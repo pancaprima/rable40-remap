@@ -19,6 +19,21 @@
                 <&kp SQT>,
                 <&kp SEMICOLON>;
         };
+        space_dance: space_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SPACE_DANCE";
+            #binding-cells = <0>;
+            bindings =
+                <&lt 1 SPACE>,
+                <&layer_space>;
+        };
+        layer_space: layer_space {
+            compatible = "zmk,behavior-caps-word";
+            label = "LAYER_SPACE";
+            #binding-cells = <0>;
+            continue-list = <SPACE>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     keymap {
@@ -26,7 +41,7 @@
 
         default_layer {
             bindings = <
-&gresc  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &mt LEFT_CONTROL TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &td0  &mt RIGHT_SHIFT ENTER  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT  &mo 1  &kp LGUI  &lt 1 SPACE  &mo 2  &kp RALT
+&gresc  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &mt LEFT_CONTROL TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &td0  &mt RIGHT_SHIFT ENTER  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT  &mo 1  &kp LGUI  &space_dance  &mo 2  &kp RALT
             >;
         };
 
