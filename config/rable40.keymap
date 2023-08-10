@@ -19,22 +19,6 @@
                 <&kp SQT>,
                 <&kp SEMICOLON>;
         };
-        space_dance: space_dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SPACE_DANCE";
-            #binding-cells = <0>;
-            bindings =
-                <&lt 1 SPACE>,
-                <&layer_space>;
-        };
-        shift_dance: shift_dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SHIFT_DANCE";
-            #binding-cells = <0>;
-            bindings =
-                <&sl 1>,
-                <&kp LEFT_SHIFT>;
-        };
     };
 
     keymap {
